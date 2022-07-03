@@ -88,5 +88,5 @@ $ npm start
 ## Contact
 
 - Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@Rohitgour03](https://github.com/Rohitgour03/Todo-app-using-React)
+- Twitter [@Rohitgour03](https://twitter.com/your-username/Rohitgour03)
