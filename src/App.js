@@ -58,14 +58,22 @@ function App() {
 
   return (
     <div className="my-8 max-w-2xl w-[90%] mx-auto relative">
-      <h1 className='font-raleway text-center text-4xl font-bold tracking-tighter mb-14'>#todo</h1> 
-      <Category 
-        activeCategory={activeCategory} 
-        handleCategory={handleCategory} 
-      />
-      <Form setTasks={setTasks} />
-      {tasksList}
-      {activeCategory === 'completed' && <DeleteBtn setTasks={setTasks} />}
+      <main>
+        <h1 className='font-raleway text-center text-4xl font-bold tracking-tighter mb-14'>#todo</h1> 
+        <Category 
+          activeCategory={activeCategory} 
+          handleCategory={handleCategory} 
+        />
+        <Form setTasks={setTasks} />
+        {tasksList}
+        {activeCategory === 'completed' && <DeleteBtn setTasks={setTasks} />}
+      </main>
+
+      <footer className='flex justify-center items-center gap-2 w-full mt-48 py-4 text-center text-[#828282]'>
+        <span>Created by </span>
+        <a href='https://devchallenges.io/portfolio/Rohitgour03' className='font-semibold'>Rohitgour03</a>
+        <a href="https://devchallenges.io">devChallenges.io</a> 
+      </footer>
     </div>
   );
 }
