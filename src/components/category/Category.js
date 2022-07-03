@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 const Category = (props) => {
 
@@ -13,21 +13,27 @@ const Category = (props) => {
                         href="#all" 
                         id='all' 
                         onClick={props.handleCategory}
-                        className={props.activeCategory === 'all' ? underlineStyle : ''}>All</a>
+                        className={props.activeCategory === 'all' ? underlineStyle : ''}>
+                        All
+                    </a>
                 </li>
                 <li className='m-0 px-8 py-4 text-center relative'>
                     <a 
                         href="#active" 
                         id='active' 
                         onClick={props.handleCategory}
-                        className={props.activeCategory === 'active' ? underlineStyle : ''}>Active</a>
+                        className={props.activeCategory === 'active' ? underlineStyle : ''}>
+                        Active
+                    </a>
                 </li>
                 <li className='m-0 px-8 py-4 text-center relative'>
                     <a 
                         href="#completed" 
                         id='completed' 
                         onClick={props.handleCategory}
-                        className={props.activeCategory === 'completed' ? underlineStyle : ''}>Completed</a>
+                        className={props.activeCategory === 'completed' ? underlineStyle : ''}>
+                        Completed
+                    </a>
                 </li>
             </ul>
         </nav>

@@ -14,8 +14,13 @@ function App() {
           isCompleted: false
         }, 
         {
-          id: 'Complete TODO and Random Quote app',
-          taskText: 'Complete TODO and Random Quote app',
+          id: 'learn DSA',
+          taskText: 'learn DSA',
+          isCompleted: false
+        },
+        {
+          id: 'learn React',
+          taskText: 'learn React',
           isCompleted: false
         }, 
     ])

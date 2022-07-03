@@ -6,7 +6,7 @@ const Form = (props) => {
 
   // setting a state with a value entered in the text input
   function inputChangeHandler(event){
-    setTaskText(prev => event.target.value)
+    setTaskText(() => event.target.value) 
   }
 
   // Adding the new task to tasks state when form is submitted and empty the input field
