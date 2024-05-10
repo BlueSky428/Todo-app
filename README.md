@@ -84,9 +84,3 @@ $ npm start
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
-
-## Contact
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@Rohitgour03](https://github.com/Rohitgour03/Todo-app-using-React)
-- Twitter [@Rohitgour03](https://twitter.com/your-username/Rohitgour03)
